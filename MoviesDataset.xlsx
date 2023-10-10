@@ -1,0 +1,240 @@
+var movies = [
+    {
+        title: 'Spectre',
+        director: "Sam Mendes',
+        genre: 'Action',
+        lead_star: 'Daniel Craig',
+        imdb_rating: '7.3'
+    }
+    {
+        title: 'The Martian',
+        director: 'Ridley Scott',
+        genre: 'Action',
+        lead_star: 'Matt Damon',
+        imdb_rating: '8.2',
+    }
+    {
+        title: 'The Godfather',
+        director: "Francis Ford Copolla',
+        genre: 'Drama',
+        lead_star: 'Marlon Brando',
+        imdb_rating: '9.2'
+    }
+    {
+        title: 'Blade Runner',
+        director: 'Ridley Scott',
+        genre: 'Sci-Fi',
+        lead_star: 'Harrison Ford',
+        imdb_rating: '8.2',
+    }
+    {
+        title: 'Alien',
+        director: "Ridley Scott',
+        genre: 'Sci-Fi',
+        lead_star: 'Sigourney Weaver',
+        imdb_rating: '8.5'
+    }
+    {
+        title: 'Apocalypse Now',
+        director: 'Francis Ford Copolla',
+        genre: 'Drama',
+        lead_star: 'Martin Sheen ',
+        imdb_rating: '8.5',
+    }
+    {
+        title: 'American Beauty',
+        director: "Sam Mendes',
+        genre: 'Drama',
+        lead_star: 'Kevin Spacey',
+        imdb_rating: '8.4'
+    }
+    {
+        title: 'Skyfall,
+        director: 'Sam Mendes',
+        genre: 'Action',
+        lead_star: 'Daniel Craig',
+        imdb_rating: '7.8',
+    }
+    {
+        title: 'The Gift,
+        director: "Joel Edgerton',
+        genre: 'Thriller',
+        lead_star: 'Jason Bateman',
+        imdb_rating: '7.2'
+    }
+    {
+        title: 'The Great Gatsby',
+        director: 'Joel Edgerton',
+        genre: 'Drama',
+        lead_star: 'Leonardo DiCaprio',
+        imdb_rating: '7.3',
+    }
+    {
+        title: 'Bridge of Spies',
+        director: "Steven Spielberg',
+        genre: 'Drama',
+        lead_star: 'Tom Hanks',
+        imdb_rating: '8.2'
+    }
+    {
+        title: 'Steve Jobs',
+        director: 'Danny Boyle',
+        genre: 'Drama',
+        lead_star: 'Michael Fassbender',
+        imdb_rating: '7.7',
+    }
+    {
+        title: 'Schindler's List',
+        director: "Steven Spielberg',
+        genre: 'Drama',
+        lead_star: 'Liam Neeson',
+        imdb_rating: '8.9'
+    }
+    {
+        title: 'Slumdog Millionaire',
+        director: 'Danny Boyle',
+        genre: 'Drama',
+        lead_star: 'Dev Patel',
+        imdb_rating: '8',
+    }
+    {
+        title: 'Trainspotting',
+        director: "Danny Boyle',
+        genre: 'Drama',
+        lead_star: 'Ewan McGregor',
+        imdb_rating: '8.2'
+    }
+    {
+        title: 'Saving Private Ryan',
+        director: 'Steven Spielberg',
+        genre: 'Action',
+        lead_star: 'Tom Hanks',
+        imdb_rating: '8.6',
+    }
+    {
+        title: 'Forest Gump',
+        director: "Robert Zemeckis',
+        genre: 'Drama',
+        lead_star: 'Tom Hanks',
+        imdb_rating: '8.8'
+    }
+    {
+        title: 'Back to the Future,
+        director: 'Robert Zemeckis,
+        genre: 'Action',
+        lead_star: 'Michael J. Fox',
+        imdb_rating: '8.5',
+    }
+    {
+        title: 'Django Unchained',
+        director: "Quentin Tarantino',
+        genre: 'Western',
+        lead_star: 'Jamie Foxx',
+        imdb_rating: '8.5'
+    }
+    {
+        title: 'Burnt',
+        director: 'John Wells',
+        genre: 'Comedy',
+        lead_star: 'Bradley Cooper',
+        imdb_rating: '6.7',
+    }
+    {
+        title: 'Cast Away',
+        director: "Robert Zemeckis',
+        genre: 'Action',
+        lead_star: 'Tom Hanks',
+        imdb_rating: '7.7'
+    }
+    {
+        title: 'Pulp Fiction',
+        director: 'Quentin Tarantino',
+        genre: 'Drama',
+        lead_star: 'John Travolta',
+        imdb_rating: '8.9',
+    }
+    {
+        title: 'Finding Nemo',
+        director: "Peter Sohn',
+        genre: 'Animation',
+        lead_star: 'Albert Brooks',
+        imdb_rating: '8.2'
+    }
+    {
+        title: 'The Good Dinosaur',
+        director: 'Peter Sohn',
+        genre: 'Animation',
+        lead_star: 'Raymond Ochoa',
+        imdb_rating: '7.7',
+    }
+    {
+        title: 'Catch Me If You Can',
+        director: "Steven Spielberg',
+        genre: 'Biography',
+        lead_star: 'Leonardo DiCaprio',
+        imdb_rating: '8'
+    }
+    {
+        title: 'A.I. Artificial Intelligence',
+        director: 'Steven Spielberg',
+        genre: 'Adventure',
+        lead_star: 'Haley Joel Osment',
+        imdb_rating: '7.1',
+    }
+    {
+        title: 'Raiders of the Lost Ark',
+        director: "Steven Spielberg',
+        genre: 'Action',
+        lead_star: 'Harrison Ford',
+        imdb_rating: '8.5'
+    }
+    {
+        title: 'Real Steel',
+        director: 'Shawn Levy',
+        genre: 'Action',
+        lead_star: 'Hugh Jackman',
+        imdb_rating: '7.1',
+    }
+    {
+        title: 'Prometheus',
+        director: "Ridley Scott',
+        genre: 'Adventure',
+        lead_star: 'Noomi Rapace',
+        imdb_rating: '7'
+    }
+    {
+        title: 'Black Hawk Down',
+        director: 'Ridley Scott',
+        genre: 'Drama',
+        lead_star: 'Josh Harnett',
+        imdb_rating: '7.7',
+    }
+    {
+        title: 'Road to Perdition',
+        director: "Sam Mendes',
+        genre: 'Crime',
+        lead_star: 'Tom Hanks',
+        imdb_rating: '7.7'
+    }
+    {
+        title: 'Revolutionary Road',
+        director: 'Sam Mendes',
+        genre: 'Drama',
+        lead_star: 'Leonardo DiCaprio',
+        imdb_rating: '7.3',
+    }
+    {
+        title: '28 Days Later',
+        director: "Danny Boyle',
+        genre: 'Horror',
+        lead_star: 'Cillian Murphy',
+        imdb_rating: '7.6'
+    }
+    {
+        title: '127 Hours',
+        director: 'Danny Boyle',
+        genre: 'Adventure',
+        lead_star: 'James Franco',
+        imdb_rating: '7.6',
+    }
+]

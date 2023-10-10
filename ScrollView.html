@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title>Movie Database</title> 
+</head> 
+  
+<body> 
+    <div> 
+        <h1>Movies</h1> 
+        <button onclick="next()" 
+                id="forward">Forward 
+         </button> 
+        <button onClick="Previous()" 
+                id="Back">Back 
+         </button> 
+    </div> 
+    <script> 
+        function next() { 
+            window.history.go(1); 
+        } 
+      
+        function previous() { 
+            window.history.go(-1); 
+        } 
+    </script> 
+</body> 
+</html>

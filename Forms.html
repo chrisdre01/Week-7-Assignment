@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title>Movie Database</title> 
+</head> 
+  
+<body> 
+    <div> 
+        <h1>Movies</h1> 
+        <button onclick="Next()" 
+                id="Forward">Forward 
+         </button> 
+        <button onClick="Previous()" 
+                id="Back">Back 
+         </button> 
+    </div> 
+    <script> 
+        function next() { 
+            window.history.forward(); 
+        } 
+      
+        function previous() { 
+            window.history.back(); 
+        } 
+    </script> 
+
+<form action="/localhost:3000.com">
+    <label for="movies">Movies:</label><br>
+    <input type="text" id="movies" name="movies" value=""><br>
+    <label for="register user">Register User:</label><br>
+    <input type="text" id="Register User" name="Register User" value=""><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+  
+</body> 
+</html>
